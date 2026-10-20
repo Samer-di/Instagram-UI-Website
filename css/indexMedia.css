@@ -1,0 +1,234 @@
+@media (max-width: 1200px) {
+  .post {
+    max-width: 600px;
+  }
+  .title {
+    font-size: 46px;
+  }
+  .nav-info {
+    width: 200px;
+  }
+}
+
+@media (max-width: 994px) {
+  .nav-desktop,
+  .nav-info {
+    display: none !important;
+  }
+  .header,
+  .main {
+    width: 100%;
+    left: 0;
+  }
+  .nav-mobile {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  .posts {
+    padding-bottom: 120px;
+  }
+  .post {
+    width: 100%;
+    max-width: 700px;
+  }
+  .story {
+    padding-inline: 15px;
+  }
+  .story-section {
+    min-width: 85px;
+  }
+  .title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 75px;
+    padding-inline: 10px;
+  }
+  .main {
+    padding-top: 75px;
+  }
+  .title {
+    font-size: 38px;
+  }
+  .story {
+    gap: 15px;
+    padding: 15px 10px;
+  }
+  .story-section {
+    min-width: 78px;
+  }
+  .prof {
+    width: 75px;
+    height: 75px;
+  }
+  .pname {
+    font-size: 12px;
+  }
+  .post {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    max-width: 100%;
+  }
+  .post-user {
+    height: 80px;
+    grid-template-columns: 80px 1fr 80px;
+  }
+  .user-photo {
+    width: 55px;
+    height: 55px;
+  }
+  .pusername {
+    font-size: 18px;
+  }
+  .post-details {
+    height: 70px;
+    padding-inline: 5px;
+  }
+  .fa-heart,
+  .fa-comment,
+  .fa-retweet,
+  .fa-paper-plane,
+  .fa-bookmark,
+  .fa-ellipsis {
+    font-size: 26px;
+  }
+  .num {
+    font-size: 14px;
+  }
+  .icon-mobile i {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    height: 70px;
+  }
+  .main {
+    padding-top: 70px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .story {
+    gap: 12px;
+    padding: 12px 8px;
+  }
+  .story-section {
+    min-width: 72px;
+  }
+  .prof {
+    width: 62px;
+    height: 62px;
+  }
+  .pname {
+    font-size: 11px;
+  }
+  .post-user {
+    height: 75px;
+    grid-template-columns: 70px 1fr 70px;
+  }
+  .user-photo {
+    width: 50px;
+    height: 50px;
+  }
+  .pusername {
+    font-size: 16px;
+  }
+  .post-details {
+    height: 65px;
+  }
+  .action {
+    gap: 5px;
+  }
+  .fa-heart,
+  .fa-comment,
+  .fa-retweet,
+  .fa-paper-plane,
+  .fa-bookmark,
+  .fa-ellipsis {
+    font-size: 22px;
+  }
+  .num {
+    font-size: 13px;
+  }
+  .nav-mobile {
+    height: 55px;
+  }
+  .icon-mobile i {
+    font-size: 24px;
+  }
+  .theme {
+    width: 40px;
+    height: 20px;
+  }
+  .circle {
+    width: 16px;
+    height: 16px;
+  }
+  .right {
+    left: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 28px;
+  }
+  .story-section {
+    min-width: 65px;
+  }
+  .prof {
+    width: 56px;
+    height: 56px;
+  }
+  .pname {
+    font-size: 10px;
+  }
+  .post-user {
+    grid-template-columns: 60px 1fr 60px;
+  }
+  .user-photo {
+    width: 45px;
+    height: 45px;
+  }
+  .pusername {
+    font-size: 15px;
+  }
+  .fa-heart,
+  .fa-comment,
+  .fa-retweet,
+  .fa-paper-plane,
+  .fa-bookmark,
+  .fa-ellipsis {
+    font-size: 20px;
+  }
+  .num {
+    font-size: 12px;
+  }
+  .icon-mobile i {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .post {
+    max-width: 750px;
+  }
+  .title {
+    font-size: 56px;
+  }
+  .story {
+    gap: 25px;
+  }
+  .prof {
+    width: 90px;
+    height: 90px;
+  }
+}
