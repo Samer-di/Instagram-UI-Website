@@ -154,25 +154,25 @@ users.forEach((user, index) => {
         <img src="${user.userPost}" class="main-post">
       </div>
       <div class="post-details">
-        <div class="action">
+        <div class="action ms-2">
           <button class="like-btn">
             <i class="fa-regular fa-heart"></i>
           </button>
           <span class="num like-num">${user.like}</span>
         </div>
-        <div class="action">
+        <div class="action ms-2">
           <button>
             <i class="fa-regular fa-comment"></i>
           </button>
           <span class="num">${user.comment}</span>
         </div>
-        <div class="action">
+        <div class="action ms-2">
           <button class="repost-btn">
             <i class="fa-solid fa-retweet"></i>
           </button>
           <span class="num repost-num">${user.repost}</span>
         </div>
-        <div class="action">
+        <div class="action ms-2">
           <button>
             <i class="fa-regular fa-paper-plane"></i>
           </button>
